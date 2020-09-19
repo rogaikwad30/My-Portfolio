@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./office\ UK.jpg) fixed no-repeat;
+    background-size: 100% 100%;
+   
+    color: teal;
+}
+
+.name{
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+}
+
+
+.box
+{
+    display: inline-block;
+    margin: 15px 0%;
+}
+
+
+.content{
+    position:absolute;
+    top: 50%;
+    color: teal;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(112, 105, 105, 0.678),black);
+    border-radius: 25px;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width:660px)
+{
+    .content{
+        font-size: 35px;
+    }
+}
+
+.insta,.fb{
+    position: absolute;
+    bottom: 2.5%;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+   
+}
+.insta{
+    margin-left: 15px;
+}
+
+.fb{
+    left: 95px;
+}
+
+
+.insta:hover,.fb:hover,.content:hover,.box:hover,.name:hover,.tag:hover{
+    box-shadow: 5px 7px 9px 3px rgba(255,255,255,0.8);
+    cursor: pointer;
+}

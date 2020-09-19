@@ -1,0 +1,73 @@
+*{
+    margin: 0px;padding: 0px;
+    
+}
+
+body{
+   
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./laptop.jpg) ;
+    background-size: cover;
+    
+}
+
+
+.cbox{
+    border: 2px solid black;
+    margin: 75px auto;
+}
+
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+
+h2:after
+{
+    content: '';
+    width: 150px;
+    height: 7px;
+    background: #fff;
+    display: block;
+    margin: 7px auto;
+    margin-bottom: 100px;
+   
+}
+
+
+.col-md-4:hover{
+    box-shadow: 5px 7px 9px 3px rgba(255,255,255,0.8);
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
+.icon
+{
+       font-size: 50px;
+       height: 80px;width: 80px;
+       border: 2px solid whitesmoke;
+       border-radius: 10%;
+       color: whitesmoke;
+       margin: 0px auto;
+       margin-bottom: 25px;
+}
+
+h3,p{
+    color: whitesmoke;
+   padding: 10px 10px;
+   
+}
+
+p{
+    font-size: 1.15rem;
+    text-align: justify;
+}

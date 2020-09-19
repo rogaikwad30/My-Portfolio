@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+
+
+body{
+    display: block;
+    position: relative;
+   
+    background: url(./game.jpg) fixed no-repeat;
+    background-size: 100% 100%;
+   
+}
+
+
+
+h2{
+  
+    padding-top: 75px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+h2:after
+{
+    content: '';
+    width: 125px;
+    height: 5px;
+    background: #fff;
+    display: block;
+    margin: 7px auto;
+    margin-bottom: 100px;
+   
+}
+
+
+
+p{
+    text-align: justify;
+}
+
+.info{
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+
+.my_image{
+     height:17vw;
+     width:20vw;
+    border-radius: 50px;
+    background-image: url(./Rohan.jpeg);
+    background-size: cover;
+}
+
+
+@media screen and (max-width:600px)
+{
+    .my_image{
+       
+        height: 40vw;
+        border-radius: 10px;
+    }
+
+}
+
+
+@media screen and (min-width:600px)
+{
+    
+    .info{
+        font-size: 1.15rem;
+    }
+}
+
+
+.info:hover,.my_image:hover,.temp:hover{
+    box-shadow: 5px 7px 9px 3px rgba(255,255,255,0.8);
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+
+
+h3:after
+{
+    content: '';
+    width: 125px;
+    height: 5px;
+    background: #fff;
+    display: block;
+    margin: 7px auto;
+    margin-bottom: 100px;
+   
+}
+
+.techn{
+    margin-top: 50px;
+}
+.techn:after{
+
+    content: '';
+    width: 250px;
+    height : 7px;
+    background: white;
+    margin: 10px auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.temp{
+    margin-bottom: 100px;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+
+
+
+.rbox
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+i{
+    color: green;
+}
+
+
+.temp:hover{
+    background-image: url(./game2.jpg);
+    background-size: cover;
+    margin-bottom: 100px;
+}
